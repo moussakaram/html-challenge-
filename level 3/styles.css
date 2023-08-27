@@ -1,0 +1,194 @@
+body{
+    background-color: #212B2D;
+}
+
+.web-border{
+    background-color: red;
+  
+}
+
+.header-box{
+    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    top: 10px;
+    left:280px;
+    right:280px;
+    
+   
+    
+    
+}
+
+.image1{
+    
+    margin: 10px;
+   border: 1px white solid;
+  
+    width: 100%;
+    height: 60%;
+    
+
+
+}
+
+.site-name,
+.site-slogan{
+   color: white;
+    position:relative;
+    bottom: 55%;
+    left:10%;
+}
+.secondpart{
+    
+   
+    position:absolute;
+    top:320px;
+    left:290px;
+    width: 69.57%;
+}
+.nav-container{
+    height: 50px;
+}
+
+.nav-list{
+    background-color: #333D3F;
+    opacity: 1.5;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: max-content;
+ 
+}
+.nav-list li{
+    display: inline-block;
+    border-right: 1px white solid;
+    padding-right: 15px;
+    margin-right: 31px;
+    margin-left:3px;
+}
+.nav-list li:last-child{
+    border-right: none;
+}
+
+.nav-list li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 25px;
+
+}
+.main-menu{
+    
+    color: white;
+    position:relative;
+    left:10px;
+    top: 30px;
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    
+}
+.main-menu-list li{
+    list-style-type: square;
+    color:white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.main-menu-list li a{
+    list-style-type: square;
+    color:white;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+.gallery{
+    color:white;
+    
+    position: absolute;
+    left:400px;
+    top:120px;
+    font-size: 20px;
+}
+
+
+.gallery h2{
+    font-size: 35px;
+    border-bottom: 1px solid white;
+  height: 70px;
+
+}
+.block{
+    
+    position: absolute;
+    width:300px;
+    height: 400px;
+    top:520px;
+    color:white;
+    font-size: 20px;
+}
+.block p{
+    margin-left: 30px;
+}
+.block h2{
+    margin-left: 60px;
+}
+.subscription{
+    
+    position: absolute;
+    left:400px;
+    width: 450px;
+    top: 520px;
+    color:white;
+    font-size: 20px;
+
+}
+.subscription button{
+   position:absolute;
+  
+  top: 270px;
+  width:130px;
+  height: 50px;
+}
+.other-services{
+    position: absolute;
+    left:900px;
+    width: 450px;
+    top: 520px;
+    color:white;
+    font-size: 20px;
+}
+.other-services button{
+    position:absolute;
+   
+   top: 270px;
+   width:130px;
+   height: 50px;
+ }
+ .contact-us-form{
+    position: absolute;
+    width:300px;
+    height: 250px;
+    top:850px;
+    color:white;
+    font-size: 20px;
+    left:20px;
+ }
+ .footer{
+    position: absolute;
+    top: 1600px;
+    right: 198px;
+    color:white;
+   
+    width: 1330px;
+    height:100px;
+    
+    text-align: center;
+    border-top: solid 1px white;
+   
+ }

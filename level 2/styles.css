@@ -1,0 +1,41 @@
+header{
+    background-color: aqua;
+    position:absolute;
+    width:100%;
+    height:50px;
+}
+.menu1 li{
+    position:relative;
+    display: inline-block;
+    border-right: 1px white solid;
+    top:60px;
+    background-color: red;
+    width:200px;;
+    height:50px;
+    font-size: 30px;
+    left:500px;
+   
+}
+.im1{
+    position: absolute;
+    top:200px;
+    left:100px;
+}
+.item{
+    position: absolute;
+    top:700px;
+    left:30%;
+
+    height:500px;
+    width:300px;
+    font-size: xx-large;
+}
+footer{
+    background-color: aqua;
+    position:absolute;
+    top:1200px;
+    width: 100%;
+    text-align: center;
+    
+}
+
